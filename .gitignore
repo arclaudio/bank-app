@@ -1,0 +1,36 @@
+# Ignore files and directories for Spring Boot projects
+
+# Ignore Help file (if present)
+HELP.md
+
+# Ignore target directory except for Maven wrapper
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Ignore IDE-specific files and directories
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# Ignore VS Code configuration directory
+### VS Code ###
+.vscode/
